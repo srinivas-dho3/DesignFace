@@ -1,0 +1,62 @@
+div.FaceCard{
+ width:300px;
+ height:300px;
+ background: #ecf0f1;
+ margin-left:auto;
+ margin-right:auto;
+ margin-top:150px;
+ filter: blur(90px) grayscale(20%);
+ border: 2px solid white;
+  border-bottom-right-radius:20px;
+  border-bottom-left-radius:20px;
+  border-top-right-radius:20px;
+  border-top-left-radius:20px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  
+ }
+
+body{
+	background-color:#e74c3c;
+}
+img{
+	position: relative;
+	border-radius:50%;
+	width:200px;
+	height: 200px;
+	bottom:100px;
+	margin-left:60px;
+	right:10px;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	border:2px solid white;
+	}
+	span p{
+		position: relative;
+	 font-family: 'Raleway', sans-serif;
+	text-align: center;
+	bottom:100px;
+
+	}
+	span.glyphicon{
+		position: absolute;
+		right:650px;
+		top:300px;	
+		font-size:2.5em;
+		color:red;
+	}
+	span.glyphicon:hover{
+		color:#34495e;
+	}
+	.button_this{
+   border:none;
+ 	width:302px;
+	height: 40px;
+	background-color:#c0392b;
+	font-family: 'Raleway', sans-serif;
+	color:white;
+	position: relative;
+	bottom:20px;
+	right: 2px;
+	}
+	.button_this:hover{
+		background-color:#e67e22;
+	}
